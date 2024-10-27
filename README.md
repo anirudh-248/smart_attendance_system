@@ -1,9 +1,11 @@
 # Real-Time Face Recognition Attendance System
 
-The Real-Time Face Recognition Attendance System is an automated solution for attendance tracking that utilizes YOLOv8 for face detection and the face_recognition library in python for identifying individuals. This system marks attendance by matching detected faces with known images and records presence in a CSV file, making it ideal for use in schools and workplaces.
+The Real-Time Face Recognition Attendance System is an automated solution for attendance tracking that utilizes YOLOv8 for face detection and the face_recognition library in Python for identifying individuals. This system marks attendance by matching detected faces with known images and records presence in a CSV file, making it ideal for use in schools and workplaces.
 
 ## Steps to run the project:
 
+1) Clone the repository using `git clone https://github.com/anirudh-248/smart_attendance_system.git`
+2) Open the cloned repository in the command prompt.
 1) Create a virtual environment using `py -m venv env`
 2) Activate the virtual environment using `env\Scripts\activate`
 3) Before installing the requirements, install dlib separately using `pip install "dlib_file_path"`
